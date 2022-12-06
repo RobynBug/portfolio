@@ -1,33 +1,117 @@
-body{background-image: linear-gradient(rgb(9, 91, 129), rgb(219, 43, 219), rgb(253, 164, 179));
-    background-repeat: repeat;
-    background-size: cover;
-}
-
 * { 
     box-sizing: border-box;
     font-family: tahoma;
-    margin: 30px;
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+    
+}
+.navigation li {
+    display: inline;
+    padding: 8px;
+}
+body {
+    background-color: gainsboro;
 }
 
 .Intro {
     text-align: center;
+    padding: 15px;
     
+}
+.summary {
+    border: solid black;
+    width: 75%;
+    margin: auto;
 }
 
 .Education {
     text-align: center;
+    padding: 20px;
+}
+.sectionTitle {
+    font-size: 30px;
+    text-align: center;
+}
+.skillSection {
+    text-align: center;
+    border: solid black;
+    height: 400px;
+    background-color: darkcyan;
+    
 }
 
 .skills {
-    display: inline-flex;
-    margin: auto;
+    padding: 15px;
+    align-items: center;
     
+}
+
+.skills1 {
+    display: border-box;
+    float: right;
+    margin-top: 35px;
+    margin-right: 50px;
+    padding: 25px 30px;
+    width: 35%;
+    height: 220px;
+    border: solid thick black;
+    text-align: left;
+    background-color: gray;
+    
+   
 
 }
-.skills1 {
-    display: inline-flex;
-    margin: auto;
+.skills2 {
+    display: border-box;
+    margin-top: 35px;
     float: left;
-    
+    padding: 25px 30px;
+    width: 35%;
+    border: solid thick black;
+    text-align: left;
+    height: 220px;
+    background-color: gray;
+}
 
+.history {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.workHistory {
+    display: border-box;
+    line-height: 1.6em;
+    border: solid black;
+    height: 600px;
+    width: 75%;
+    align-items: center;
+    overflow: scroll;
+    margin: auto;
+    background-color: darkcyan;
+}
+.Jobtitle {
+    padding-top: 20px;
+}
+.professional {
+    padding-top: 30px;
+    padding-left: 10%;
+    
+}
+.education {
+    display: border-box;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    line-height: 1.6em;
+    width: 75%;
+    margin:auto;
+    border: solid thick black;
+    background-color: gray;
+
+}
+
+footer {
+    padding: 25px;
+    font-size: 25px;
 }
